@@ -1,0 +1,7 @@
+{
+  "name": "cloneLayout",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
