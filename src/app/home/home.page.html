@@ -1,22 +1,100 @@
 <ion-header class="ion-no-border" mode="md">
-  <ion-toolbar color="pure-white">
-    <ion-title>
-      <h1 id="title">Hi Mike, <span id="subtitle-header">Where do you want to go?</span></h1>
-    </ion-title>
-  </ion-toolbar>
+	<ion-toolbar color="pure-white">
+		<ion-title>
+			<h1 id="title">Hi Mike, <span id="subtitle-header">Where do you want to go?</span></h1>
+		</ion-title>
+	</ion-toolbar>
 </ion-header>
 
+
 <ion-content [fullscreen]="true" color="pure-white">
-  <div id="container">
-    <ion-text>
-      <strong>Conteúdo Principal</strong>
-      <p>Em desenvolvimento</p>
-    </ion-text>
-  </div>
+	<div id="container">
+		<!-- 
+			Search Bar - Input Destination
+			----------------------------------------
+		 -->
+		<ion-searchbar id="searchbar" search-icon="location-sharp" placeholder="Input destination" color="pure-white"></ion-searchbar>
+
+		<!-- 
+			First Block - Daily Scenery
+			----------------------------------------
+		 -->
+		<div class="card-caption">
+			<div>
+				<ion-text class="card-title">Daily Scenery</ion-text>
+				<ion-text class="card-status" color="primary">Updated</ion-text>
+			</div>
+			<ion-text class="card-more"><a>More</a></ion-text>
+		</div>
+
+		<ion-slides [options]="option" class="ion-margin-top">
+			<!-- 
+				First Card
+				----------------------------------------
+			-->
+			<ion-slide>
+				<ion-card color="pure-white">
+					<img id="card-image" src="https://img.freepik.com/fotos-gratis/foto-de-baixo-angulo-da-fachada-de-um-edificio-moderno-branco-sob-um-ceu-azul-claro_181624-48219.jpg?w=740&t=st=1678304887~exp=1678305487~hmac=4e9010fe77ec5b32957e2b24b6893c2884fa491332b9f5d4f35e85d27c1e0abe" alt="">
+		
+					<div id="card-details">
+						<div id="card-text">
+							<ion-card-subtitle>2018.9.17</ion-card-subtitle>
+							<ion-card-title>Santa Barbara, USA</ion-card-title>
+						</div>
+		
+						<div id="card-friends">
+							<ion-avatar>
+								<img alt="Silhouette of a person's head" src="https://img.freepik.com/fotos-gratis/velho-empresario-de-sucesso-de-terno-e-oculos-parecendo-confiante_176420-31742.jpg?w=740&t=st=1678305948~exp=1678306548~hmac=b063268bfac92da1c24fb09a12cbefd8f152d0e4097eb83b514b7038c14002d3" />
+							</ion-avatar>
+							<ion-avatar>
+								<img alt="Silhouette of a person's head" src="https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-bonita-em-pe-na-parede-cinza_231208-10760.jpg?w=740&t=st=1678305979~exp=1678306579~hmac=5c4cb6d9876594a82a6fdf2fc68e936e1205c6256f068110e7cc9d255dec05a8" />
+							</ion-avatar>
+						</div>
+					</div>
+				</ion-card>
+			</ion-slide>
+
+			<!-- 
+				Second Card
+				----------------------------------------
+			-->
+			<ion-slide>
+				<ion-card color="pure-white">
+					<img id="card-image" src="https://img.freepik.com/fotos-gratis/construcao_1127-3341.jpg?w=740&t=st=1678310522~exp=1678311122~hmac=1db6b6608a42d751f76e6fe8634369fc45042ed489c4c6e3f53bd20461be80c4" alt="">
+		
+					<div id="card-details">
+						<div id="card-text">
+							<ion-card-subtitle>2018.9.17</ion-card-subtitle>
+							<ion-card-title>TS University, CAN</ion-card-title>
+						</div>
+		
+						<div id="card-friends">
+							<ion-avatar>
+								<img alt="Silhouette of a person's head" src="https://img.freepik.com/fotos-gratis/velho-empresario-de-sucesso-de-terno-e-oculos-parecendo-confiante_176420-31742.jpg?w=740&t=st=1678305948~exp=1678306548~hmac=b063268bfac92da1c24fb09a12cbefd8f152d0e4097eb83b514b7038c14002d3" />
+							</ion-avatar>
+						</div>
+					</div>
+				</ion-card>
+			</ion-slide>
+		</ion-slides>
+
+		<!-- 
+			Second Block - City
+			----------------------------------------
+		 -->
+		<!-- <div class="card-caption">
+			<div>
+				<ion-text class="card-title">City</ion-text>
+				<ion-text class="card-status" color="primary">Hot</ion-text>
+			</div>
+			<ion-text class="card-more"><a>More</a></ion-text>
+		</div> -->
+	</div>
 </ion-content>
 
+
 <ion-footer class="ion-no-border">
-  <ion-toolbar color="pure-white">
-    <ion-title>Rodapé...</ion-title>
-  </ion-toolbar>
+	<ion-toolbar color="pure-white">
+		<ion-title>Rodapé...</ion-title>
+	</ion-toolbar>
 </ion-footer>
