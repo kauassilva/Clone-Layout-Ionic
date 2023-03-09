@@ -23,12 +23,12 @@
 			First Block - Daily Scenery
 			----------------------------------------
 		 -->
-		<div class="card-caption">
+		<div class="caption">
 			<div>
-				<ion-text class="card-title">Daily Scenery</ion-text>
-				<ion-text class="card-status" color="primary">Updated</ion-text>
+				<ion-text class="caption-title">Daily Scenery</ion-text>
+				<ion-text class="caption-status" color="primary"><strong>Updated</strong></ion-text>
 			</div>
-			<ion-text class="card-more"><a>More</a></ion-text>
+			<ion-text class="caption-more"><a>More</a></ion-text>
 		</div>
 
 		<ion-slides [options]="option" class="ion-margin-top">
@@ -86,32 +86,56 @@
 			Second Block - City
 			----------------------------------------
 		 -->
-		<div class="card-caption">
+		<div class="caption">
 			<div>
-				<ion-text class="card-title">City</ion-text>
-				<ion-text class="card-filter">Hot</ion-text>
+				<ion-text class="caption-title">City</ion-text>
+				<ion-text class="caption-filter"><strong>Hot</strong></ion-text>
 			</div>
-			<ion-text class="card-more"><a>More</a></ion-text>
+			<ion-text class="caption-more"><a>More</a></ion-text>
 		</div>
 
 		<ion-grid class="ion-no-padding">
 			<ion-row class="ion-justify-content-around">
 				<ion-col size="3.5">
-					<img class="city-image" src="../../assets/image/city-1.jpg" alt="">
+					<img class="city-image" src="../../assets/image/city-1.jpg" alt="Spain city">
 					<p class="city-text">Spain</p>
 				</ion-col>
 
 				<ion-col size="3.5">
-					<img class="city-image" src="../../assets/image/city-2.jpg" alt="">
+					<img class="city-image" src="../../assets/image/city-2.jpg" alt="Germany city">
 					<p class="city-text">Germany</p>
 				</ion-col>
-				
+
 				<ion-col size="3.5">
-					<img class="city-image" src="../../assets/image/city-3.jpg" alt="">
+					<img class="city-image" src="../../assets/image/city-3.jpg" alt="Turkey city">
 					<p class="city-text">Turkey</p>
 				</ion-col>
 			</ion-row>
 		</ion-grid>
+
+		<!-- 
+			Third Block - Master
+			----------------------------------------
+		 -->
+		<div class="caption">
+			<ion-text class="caption-title">Master</ion-text>
+		</div>
+
+		<div class="master-group">
+			<ion-avatar>
+				<img alt="Silhouette of a person's head" src="../../assets/image/friend-2.jpg" />
+			</ion-avatar>
+			<ion-avatar>
+				<img alt="Silhouette of a person's head" src="../../assets/image/friend-1.jpg" />
+			</ion-avatar>
+			<ion-avatar>
+				<img alt="Silhouette of a person's head" src="../../assets/image/friend-3.jpg" />
+			</ion-avatar>
+			<ion-avatar>
+				<img alt="Silhouette of a person's head" src="../../assets/image/friend-4.jpg" />
+			</ion-avatar>
+			<ion-text color="primary"><a><strong>Join them.</strong></a></ion-text>
+		</div>
 	</div>
 </ion-content>
 
@@ -119,7 +143,7 @@
 	Tab Footer
 	----------------------------------------
 -->
-<ion-footer class="ion-no-border">
+<ion-footer>
 	<ion-toolbar color="pure-white">
 		<ion-title>Rodapé...</ion-title>
 	</ion-toolbar>
