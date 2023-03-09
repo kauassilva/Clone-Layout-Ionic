@@ -36,7 +36,7 @@
 .caption {
     display: flex;
     justify-content: space-between;
-    margin: 30px 15px 15px 15px;
+    margin: 40px 15px 20px 15px;
     align-items: end;
 }
 
@@ -181,4 +181,15 @@ ion-col {
 
 .master-group ion-text {
     margin-left: 10px;
+}
+
+/* 
+* Footer style
+* ----------------------------------------
+*/
+ion-footer {
+    margin-top: 10px;
+}
+.tab-bar {
+    border: none;
 }
