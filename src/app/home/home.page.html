@@ -1,13 +1,17 @@
-<ion-header class="ion-no-border" mode="md">
-	<ion-toolbar color="pure-white">
-		<ion-title>
-			<h1 id="title">Hi Mike, <span id="subtitle-header">Where do you want to go?</span></h1>
-		</ion-title>
-	</ion-toolbar>
-</ion-header>
-
-
 <ion-content [fullscreen]="true" color="pure-white">
+	<!-- 
+		Header Content
+		----------------------------------------
+	-->
+	<ion-header class="ion-no-border" mode="md">
+		<ion-toolbar color="pure-white">
+			<ion-title>
+				<h1 id="title">Hi Mike, <span id="subtitle-header">Where do you want to go?</span></h1>
+			</ion-title>
+		</ion-toolbar>
+	</ion-header>
+
+
 	<div id="container">
 		<!-- 
 			Search Bar - Input Destination
@@ -34,7 +38,7 @@
 			-->
 			<ion-slide>
 				<ion-card color="pure-white">
-					<img id="card-image" src="https://img.freepik.com/fotos-gratis/foto-de-baixo-angulo-da-fachada-de-um-edificio-moderno-branco-sob-um-ceu-azul-claro_181624-48219.jpg?w=740&t=st=1678304887~exp=1678305487~hmac=4e9010fe77ec5b32957e2b24b6893c2884fa491332b9f5d4f35e85d27c1e0abe" alt="">
+					<img id="card-image" src="../../assets/image/daily-scenery-1.jpg" alt="Top of a white apartment">
 		
 					<div id="card-details">
 						<div id="card-text">
@@ -44,10 +48,10 @@
 		
 						<div id="card-friends">
 							<ion-avatar>
-								<img alt="Silhouette of a person's head" src="https://img.freepik.com/fotos-gratis/velho-empresario-de-sucesso-de-terno-e-oculos-parecendo-confiante_176420-31742.jpg?w=740&t=st=1678305948~exp=1678306548~hmac=b063268bfac92da1c24fb09a12cbefd8f152d0e4097eb83b514b7038c14002d3" />
+								<img alt="Silhouette of a person's head" src="../../assets/image/friend-1.jpg"/>
 							</ion-avatar>
 							<ion-avatar>
-								<img alt="Silhouette of a person's head" src="https://img.freepik.com/fotos-gratis/retrato-de-uma-jovem-bonita-em-pe-na-parede-cinza_231208-10760.jpg?w=740&t=st=1678305979~exp=1678306579~hmac=5c4cb6d9876594a82a6fdf2fc68e936e1205c6256f068110e7cc9d255dec05a8" />
+								<img alt="Silhouette of a person's head" src="../../assets/image/friend-2.jpg"/>
 							</ion-avatar>
 						</div>
 					</div>
@@ -60,7 +64,7 @@
 			-->
 			<ion-slide>
 				<ion-card color="pure-white">
-					<img id="card-image" src="https://img.freepik.com/fotos-gratis/construcao_1127-3341.jpg?w=740&t=st=1678310522~exp=1678311122~hmac=1db6b6608a42d751f76e6fe8634369fc45042ed489c4c6e3f53bd20461be80c4" alt="">
+					<img id="card-image" src="../../assets/image/daily-scenery-2.jpg" alt="Walkway with trees from TS University">
 		
 					<div id="card-details">
 						<div id="card-text">
@@ -70,7 +74,7 @@
 		
 						<div id="card-friends">
 							<ion-avatar>
-								<img alt="Silhouette of a person's head" src="https://img.freepik.com/fotos-gratis/velho-empresario-de-sucesso-de-terno-e-oculos-parecendo-confiante_176420-31742.jpg?w=740&t=st=1678305948~exp=1678306548~hmac=b063268bfac92da1c24fb09a12cbefd8f152d0e4097eb83b514b7038c14002d3" />
+								<img alt="Silhouette of a person's head" src="../../assets/image/friend-2.jpg" />
 							</ion-avatar>
 						</div>
 					</div>
@@ -82,17 +86,39 @@
 			Second Block - City
 			----------------------------------------
 		 -->
-		<!-- <div class="card-caption">
+		<div class="card-caption">
 			<div>
 				<ion-text class="card-title">City</ion-text>
-				<ion-text class="card-status" color="primary">Hot</ion-text>
+				<ion-text class="card-filter">Hot</ion-text>
 			</div>
 			<ion-text class="card-more"><a>More</a></ion-text>
-		</div> -->
+		</div>
+
+		<ion-grid class="ion-no-padding">
+			<ion-row class="ion-justify-content-around">
+				<ion-col size="3.5">
+					<img class="city-image" src="../../assets/image/city-1.jpg" alt="">
+					<p class="city-text">Spain</p>
+				</ion-col>
+
+				<ion-col size="3.5">
+					<img class="city-image" src="../../assets/image/city-2.jpg" alt="">
+					<p class="city-text">Germany</p>
+				</ion-col>
+				
+				<ion-col size="3.5">
+					<img class="city-image" src="../../assets/image/city-3.jpg" alt="">
+					<p class="city-text">Turkey</p>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
 	</div>
 </ion-content>
 
-
+<!-- 
+	Tab Footer
+	----------------------------------------
+-->
 <ion-footer class="ion-no-border">
 	<ion-toolbar color="pure-white">
 		<ion-title>Rodapé...</ion-title>
