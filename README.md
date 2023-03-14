@@ -1,7 +1,6 @@
 # Clone-Layout-Ionic
 
-## Sistemas Distribuídos e Mobile activity
-The professor of this curricular unit (discipline) of the graduation in Computer Science asked to clone the layout of a mobile application (images below) that does not have any functionality, just static design.
+The professor of the graduation in Computer Science asked to clone the layout of a mobile application (images below) that does not have any functionality, just static design.
 
 I tried to reproduce the layout as closely as possible to the original, except for the photos of places and people (there is a credits section at the end of the document for the creators and artists who took the photos). Although this project does not involve building a functional application and it did not turn out perfectly identical to the original, it was still a lot of work and I may consider adding simple functionalities in the future to make this project more interesting.
 
