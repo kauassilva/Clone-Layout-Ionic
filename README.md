@@ -10,7 +10,10 @@ Tentei reproduzir o layout o mais próximo do original, menos as fotos dos lugar
 - Angular
 - Visual Studio Code
 
-<!--### Imagens-->
+### Imagens
+| cloneLayout | Layout original |
+| --- | --- |
+| ![](src/assets/image/readme/cloneLayout.png) | ![](src/assets/image/readme/layoutOriginal.png) |
 
 ### Créditos
 - [city-1](https://br.freepik.com/fotos-gratis/bela-vista-da-plaza-de-espana-em-sevilha-na-espanha_15696553.htm#query=places&position=8&from_view=search&track=sph): Imagem de wirestock no Freepik
